@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pay.sol": "pay"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pay.sol": {
+			"keccak256": "0xb59b6ded39c77cb93a25d5fc847d1b89ac742a1708b23bad63887b510ec6ed7c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bd4ee3a9649d26c960331c1a1794840dcc6369c50dc7a423e5bdc56c0914e6c5",
+				"dweb:/ipfs/QmVhf2P1WmoGuCoNaENhgsyQbqcRdQTg217VVvSm5DK6ML"
+			]
+		}
+	},
+	"version": 1
+}

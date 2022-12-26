@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"visibility.sol": "C"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"visibility.sol": {
+			"keccak256": "0xb62cdc7f7ee66d382bfa220dfd3e7068ef8254dea1020f90d444ba93caa7ee16",
+			"urls": [
+				"bzz-raw://82d43839bfd614af020fb26b9880f25a1b9be402e318d5a7d6067f5986f08512",
+				"dweb:/ipfs/QmUm5AfAZcvE3g2eeZK2SCPW4o3tX1vDAXax9DcrQvJqyY"
+			]
+		}
+	},
+	"version": 1
+}

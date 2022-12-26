@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum eunm.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eunm.sol": "eunm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eunm.sol": {
+			"keccak256": "0x417e239172f8b597d3c00fb0346425e696d94eba97a364b7b4109bafe4b38245",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://284bea7bb576f0e7df477e368b26d31266f741b794eb0a91667437966466d503",
+				"dweb:/ipfs/QmX3HmUcuodE5P7QzhfqAcHPcohA6wzfgUkSdREK8XG8vx"
+			]
+		}
+	},
+	"version": 1
+}

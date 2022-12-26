@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "b2",
+				"outputs": [
+					{
+						"internalType": "bytes2",
+						"name": "",
+						"type": "bytes2"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b3",
+				"outputs": [
+					{
+						"internalType": "bytes3",
+						"name": "",
+						"type": "bytes3"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fixedbytearray.sol": "byteArray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fixedbytearray.sol": {
+			"keccak256": "0x66a53d402c38c0e499bc50f5d7aa44eae9be4cbd08af47ac67ec2c007ab84d00",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ecbcab21c9e11cd8f81f0a6e9eb22046ad1db29f23303b40feab00883ca89b8e",
+				"dweb:/ipfs/QmUeokxvmQVbxjwhyWThPyNfBMJH72bWtDX8PbTmV8xZ7F"
+			]
+		}
+	},
+	"version": 1
+}
